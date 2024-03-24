@@ -18,7 +18,7 @@ Domenu koji pokriva projekt jest novi sustav naziva MAVZ, namijenjen za Gradske 
 (Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
 
 ## Zadatak
-![Zadatak - Gradski prijevoz](https://github.com/foivz/pi2024-zadace-jjelcic22/blob/master/Documentation/Zadatak%20-%20Gradski%20prijevoz.pdf)
+[Zadatak - Gradski prijevoz](https://github.com/foivz/pi2024-zadace-jjelcic22/blob/master/Documentation/Zadatak%20-%20Gradski%20prijevoz.pdf)
 
 ## Resursi
 
