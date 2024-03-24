@@ -7,7 +7,7 @@
 
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
-Jure Jelčić | jjelcic22@foi.hr | 0016162205 | jjelcic
+Jure Jelčić | jjelcic22@foi.hr | 0016162205 | jjelcic22
 
 
 ## Opis domene
