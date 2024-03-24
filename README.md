@@ -15,11 +15,11 @@ A sada, vrijeme je za prvi korak rada na vašem projektu. 🙂 Za upis/opis vaš
 
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
-Ime i prezime | mojaadresa@foi.hr | 000000000 | githubuser
+Jure Jelčić | jjelcic22@foi.hr | 0016162205 | jjelcic
 
 
 ## Opis domene
-(Vlastitim riječima opišite domenu ili problem koji pokriva projekt vaše zadaće!)
+Domenu koji pokriva projekt jest novi sustav naziva MAVZ, namijenjen za Gradske autobuse Varaždin.Uvođenjem ovog sustava velika većina posla će biti digitalizirana  te će ova opcija prijevoza postati lakše dostupna.
 
 ## Specifikacija projekta
 (Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
