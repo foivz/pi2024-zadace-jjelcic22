@@ -17,14 +17,22 @@ namespace MAVZ
             InitializeComponent();
         }
 
-        private void btnUnos_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void btnIzmjena_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            FrmPretrazitelj frmPretrazitelj = new FrmPretrazitelj();
+            frmPretrazitelj.Show();
+        }
+
+        private void FrmIzbornik_Load(object sender, EventArgs e)
+        {
+           
         }
     }
 }

@@ -40,6 +40,7 @@
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Pretraživanje stavke";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnIzmjena
             // 
@@ -61,6 +62,7 @@
             this.Controls.Add(this.btnSearch);
             this.Name = "FrmIzbornik";
             this.Text = "FrmIzbornik";
+            this.Load += new System.EventHandler(this.FrmIzbornik_Load);
             this.ResumeLayout(false);
 
         }
