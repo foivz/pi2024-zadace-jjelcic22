@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace MAVZ
 {
-    public partial class Form1 : Form
+    public partial class FrmIzbornik : Form
     {
-        public Form1()
+        public FrmIzbornik()
         {
             InitializeComponent();
+        }
+
+        private void btnUnos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnIzmjena_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
