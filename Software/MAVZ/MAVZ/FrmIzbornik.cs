@@ -17,12 +17,14 @@ namespace MAVZ
             InitializeComponent();
         }
 
-       
+
 
         private void btnIzmjena_Click(object sender, EventArgs e)
         {
-
+            FrmIzmjena frmIzmjena = new FrmIzmjena();
+            frmIzmjena.Show();
         }
+
 
         private void btnSearch_Click(object sender, EventArgs e)
         {

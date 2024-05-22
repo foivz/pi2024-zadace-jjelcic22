@@ -46,7 +46,7 @@ namespace MAVZ
 
             if (!string.IsNullOrWhiteSpace(searchText))
             {
-                string query = $"SELECT * FROM VozniRed  WHERE strlinija LIKE '%{searchText}%'";
+                string query = $"SELECT * FROM VozniRed  WHERE linija LIKE '%{searchText}%'";
 
                 DB.OpenConnection();
 
