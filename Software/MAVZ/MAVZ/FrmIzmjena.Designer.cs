@@ -40,6 +40,7 @@
             this.btnDodaj = new System.Windows.Forms.Button();
             this.btnAzuriraj = new System.Windows.Forms.Button();
             this.btnIzbrisi = new System.Windows.Forms.Button();
+            this.lbNaslovU = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cbOdabir
@@ -82,6 +83,7 @@
             // lbId
             // 
             this.lbId.AutoSize = true;
+            this.lbId.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lbId.Location = new System.Drawing.Point(56, 165);
             this.lbId.Name = "lbId";
             this.lbId.Size = new System.Drawing.Size(29, 16);
@@ -91,6 +93,7 @@
             // lbLinija
             // 
             this.lbLinija.AutoSize = true;
+            this.lbLinija.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lbLinija.Location = new System.Drawing.Point(57, 237);
             this.lbLinija.Name = "lbLinija";
             this.lbLinija.Size = new System.Drawing.Size(47, 16);
@@ -100,6 +103,8 @@
             // lbVrijemeDol
             // 
             this.lbVrijemeDol.AutoSize = true;
+            this.lbVrijemeDol.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lbVrijemeDol.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbVrijemeDol.Location = new System.Drawing.Point(57, 374);
             this.lbVrijemeDol.Name = "lbVrijemeDol";
             this.lbVrijemeDol.Size = new System.Drawing.Size(114, 16);
@@ -109,6 +114,7 @@
             // lbVrijemePol
             // 
             this.lbVrijemePol.AutoSize = true;
+            this.lbVrijemePol.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lbVrijemePol.Location = new System.Drawing.Point(57, 296);
             this.lbVrijemePol.Name = "lbVrijemePol";
             this.lbVrijemePol.Size = new System.Drawing.Size(111, 16);
@@ -127,29 +133,44 @@
             // 
             // btnAzuriraj
             // 
+            this.btnAzuriraj.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnAzuriraj.Location = new System.Drawing.Point(482, 374);
             this.btnAzuriraj.Name = "btnAzuriraj";
             this.btnAzuriraj.Size = new System.Drawing.Size(93, 34);
             this.btnAzuriraj.TabIndex = 11;
             this.btnAzuriraj.Text = "Ažuriraj";
-            this.btnAzuriraj.UseVisualStyleBackColor = true;
+            this.btnAzuriraj.UseVisualStyleBackColor = false;
             this.btnAzuriraj.Click += new System.EventHandler(this.btnAzuriraj_Click);
             // 
             // btnIzbrisi
             // 
+            this.btnIzbrisi.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnIzbrisi.Location = new System.Drawing.Point(607, 374);
             this.btnIzbrisi.Name = "btnIzbrisi";
             this.btnIzbrisi.Size = new System.Drawing.Size(98, 34);
             this.btnIzbrisi.TabIndex = 12;
             this.btnIzbrisi.Text = "Izbriši";
-            this.btnIzbrisi.UseVisualStyleBackColor = true;
+            this.btnIzbrisi.UseVisualStyleBackColor = false;
             this.btnIzbrisi.Click += new System.EventHandler(this.btnIzbrisi_Click);
+            // 
+            // lbNaslovU
+            // 
+            this.lbNaslovU.AutoSize = true;
+            this.lbNaslovU.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.lbNaslovU.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNaslovU.Location = new System.Drawing.Point(549, 55);
+            this.lbNaslovU.Name = "lbNaslovU";
+            this.lbNaslovU.Size = new System.Drawing.Size(116, 39);
+            this.lbNaslovU.TabIndex = 13;
+            this.lbNaslovU.Text = "MAVZ";
             // 
             // FrmIzmjena
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(744, 440);
+            this.Controls.Add(this.lbNaslovU);
             this.Controls.Add(this.btnIzbrisi);
             this.Controls.Add(this.btnAzuriraj);
             this.Controls.Add(this.btnDodaj);
@@ -184,5 +205,6 @@
         private System.Windows.Forms.Button btnDodaj;
         private System.Windows.Forms.Button btnAzuriraj;
         private System.Windows.Forms.Button btnIzbrisi;
+        private System.Windows.Forms.Label lbNaslovU;
     }
 }

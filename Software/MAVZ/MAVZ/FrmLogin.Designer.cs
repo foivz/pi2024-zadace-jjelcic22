@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtLozinka = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.lbNaslovp = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -45,7 +46,7 @@
             // 
             // txtKorime
             // 
-            this.txtKorime.Location = new System.Drawing.Point(242, 119);
+            this.txtKorime.Location = new System.Drawing.Point(245, 159);
             this.txtKorime.Name = "txtKorime";
             this.txtKorime.Size = new System.Drawing.Size(172, 22);
             this.txtKorime.TabIndex = 2;
@@ -54,7 +55,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(142, 122);
+            this.label1.Location = new System.Drawing.Point(145, 162);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 16);
             this.label1.TabIndex = 3;
@@ -63,7 +64,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(142, 176);
+            this.label2.Location = new System.Drawing.Point(145, 216);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 16);
             this.label2.TabIndex = 5;
@@ -71,7 +72,7 @@
             // 
             // txtLozinka
             // 
-            this.txtLozinka.Location = new System.Drawing.Point(243, 173);
+            this.txtLozinka.Location = new System.Drawing.Point(246, 213);
             this.txtLozinka.Name = "txtLozinka";
             this.txtLozinka.Size = new System.Drawing.Size(172, 22);
             this.txtLozinka.TabIndex = 4;
@@ -80,7 +81,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(319, 221);
+            this.btnLogin.Location = new System.Drawing.Point(322, 261);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(95, 32);
             this.btnLogin.TabIndex = 6;
@@ -88,12 +89,24 @@
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
+            // lbNaslovp
+            // 
+            this.lbNaslovp.AutoSize = true;
+            this.lbNaslovp.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lbNaslovp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNaslovp.Location = new System.Drawing.Point(201, 63);
+            this.lbNaslovp.Name = "lbNaslovp";
+            this.lbNaslovp.Size = new System.Drawing.Size(147, 25);
+            this.lbNaslovp.TabIndex = 7;
+            this.lbNaslovp.Text = "MAVZ-Prijava";
+            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(604, 411);
+            this.Controls.Add(this.lbNaslovp);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtLozinka);
@@ -118,6 +131,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtLozinka;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Label lbNaslovp;
     }
 }
 
