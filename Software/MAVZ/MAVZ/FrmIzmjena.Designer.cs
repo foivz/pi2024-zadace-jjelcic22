@@ -96,9 +96,9 @@
             this.lbLinija.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lbLinija.Location = new System.Drawing.Point(57, 237);
             this.lbLinija.Name = "lbLinija";
-            this.lbLinija.Size = new System.Drawing.Size(47, 16);
+            this.lbLinija.Size = new System.Drawing.Size(44, 16);
             this.lbLinija.TabIndex = 7;
-            this.lbLinija.Text = "Linija : ";
+            this.lbLinija.Text = "Linija: ";
             // 
             // lbVrijemeDol
             // 
@@ -160,7 +160,7 @@
             this.lbNaslovU.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNaslovU.Location = new System.Drawing.Point(549, 55);
             this.lbNaslovU.Name = "lbNaslovU";
-            this.lbNaslovU.Size = new System.Drawing.Size(116, 39);
+            this.lbNaslovU.Size = new System.Drawing.Size(112, 38);
             this.lbNaslovU.TabIndex = 13;
             this.lbNaslovU.Text = "MAVZ";
             // 
