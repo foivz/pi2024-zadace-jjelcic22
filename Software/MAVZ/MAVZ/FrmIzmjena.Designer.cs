@@ -117,9 +117,9 @@
             this.lbVrijemePol.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lbVrijemePol.Location = new System.Drawing.Point(57, 296);
             this.lbVrijemePol.Name = "lbVrijemePol";
-            this.lbVrijemePol.Size = new System.Drawing.Size(111, 16);
+            this.lbVrijemePol.Size = new System.Drawing.Size(108, 16);
             this.lbVrijemePol.TabIndex = 8;
-            this.lbVrijemePol.Text = "Vrijeme polaska :";
+            this.lbVrijemePol.Text = "Vrijeme polaska:";
             // 
             // btnDodaj
             // 
