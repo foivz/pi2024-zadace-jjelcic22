@@ -9,7 +9,9 @@ Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
 Jure Jelčić | jjelcic22@foi.hr | 0016162205 | jjelcic22
 
-
+## Podaci za prijavu
+Korisničko ime : marko
+Lozinka : 1
 ## Opis domene
 Domenski prostor "MAVZ" obuhvaća sve aspekte gradskog autobusnog prijevoza, uključujući informacije o linijama, rasporedima, stanicama, vozilima i kartama. Također, obuhvaća i interakciju korisnika s online platformom putem različitih uređaja kao što su računala, pametni telefoni i tableti. Platforma treba osigurati pouzdanost, sigurnost i točnost informacija te olakšati korisnicima rezervaciju karata, praćenje autobusa u stvarnom vremenu i pružanje podrške. Administratorski dio omogućuje upravljanje podacima i postavkama sustava radi osiguranja glatke i učinkovite operacije. Cilj je poboljšati kvalitetu gradskog prijevoza kroz digitalizaciju i optimizaciju procesa.
 
